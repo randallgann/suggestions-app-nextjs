@@ -41,4 +41,12 @@ next-env.d.ts
 # terraform
 *.tfstate
 *.tfvars
-.terraform
+.terraform/*
+.terraform/modules*
+.terraform.lock.hcl
+terraform.tfstate*
+
+terraform/env/develop/.terraform/*
+terraform/env/local/.terraform/*
+terraform/env/production/.terraform/*
+
