@@ -1,0 +1,1 @@
+This is a Next.js application that allows users to suggest and vote on topics of discussion.  This site was created as a personal project for learning and to explore the capabilities of Next.js.  The application is built using React and utilizes various Next.js features such as server-side rendering, API routes, and dynamic routing.

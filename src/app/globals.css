@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.isolate {
+  isolation: isolate;
+}
+
+*:focus, *:active {
+  outline: none;
+  border: none;
+}
+
+.navbar-bg {
+  /* background-color: #f59e0b; */
+  background-color: #acbba1;
+}
+
+.page-bg {
+  background-color: #333946;
+}
+
+.categories-bg {
+  background-color: #232f3d;
+}
+
+.statuses-bg {
+  background-color: #232f3d;
+}
+
+.upvote-selected-bg {
+  background-color: #38b2ac;
+}
+
+.upvote-deselected-bg {
+  background-color: #6b7280;
+}
+
+.suggestions-entry-bg {
+  background-color: #b7ac7e;
+}
+
+.suggestions-entry-status-bg {
+  background-color: #ddb042;
+}
+
+/* div {
+  border: 1px solid;
+  border-radius: 10px;
+} */

@@ -1,0 +1,1 @@
+export const categories = ['Movies', 'Pop Culture', 'Music', 'Social Media', 'Politics', 'Craziness', 'Technology'];
