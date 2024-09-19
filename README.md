@@ -47,7 +47,17 @@ To run this project locally, follow these steps:
    npm install
    ```
 3. **Set up .tfvars**:
-    Create a `.tfvars` file in the root directory and add your Google Cloud credentials and Firestore configuration.
+    Create a .tfvars file in the terraform/env directories, using the appropriate variables for each environment. The following variables are required:
+    ```bash
+    project=""
+    region=""
+    image=""
+    service_name=""
+    AUTH0_SECRET=""
+    AUTH0_ISSUER_BASE_URL=""
+    AUTH0_CLIENT_ID=""
+    AUTH0_CLIENT_SECRET=""
+    ```
 4. **Run the development server**:
    ```bash
    npm run dev
