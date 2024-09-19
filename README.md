@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/nextjs-suggestions-app.git
+   https://github.com/randallgann/suggestions-app-nextjs.git
 2. **Install dependencies**:
    ```bash
    cd nextjs-suggestions-app
