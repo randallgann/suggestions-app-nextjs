@@ -19,10 +19,9 @@ export default async function HomePage() {
   return (
     <>
     <SortProvider adminUsers={adminUsers}>
-      <article className="page-bg prose lg:prose-xl mx-auto">
+      <article className="page-bg prose lg:prose-xl mx-auto pt-8">
         <div className="mx-auto max-w-xl lg:max-w-7xl w-full">
-        <h1 className="text-4xl text-center text-white font-mono font-bold underline decoration-wavy">TOPIC SUGGESTIONS</h1>
-        <div className="flex justify-center mb-6 mt-6">
+        <div className="flex justify-center mb-2">
           <SuggestButton />
         </div>
         <div className="flex">

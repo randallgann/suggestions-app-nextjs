@@ -15,7 +15,7 @@ export default function Button() {
 
   return (
     user 
-      ? <a className="h-12 navbar-bg rounded-lg font-bold px-5 flex items-center justify-center" href="/api/auth/logout">Sign Out</a>
-      : <a className="h-12 navbar-bg rounded-lg font-bold px-5 flex items-center justify-center" href="/api/auth/login">Sign In</a>
+      ? <a className="h-12 navbar-bg text-white rounded-lg font-bold px-5 flex items-center justify-center" href="/api/auth/logout">Sign Out</a>
+      : <a className="h-12 navbar-bg text-white rounded-lg font-bold px-5 flex items-center justify-center" href="/api/auth/login">Sign In</a>
   );
 }

@@ -1,20 +1,18 @@
 # Next.js Suggestions Application
 
-[@MikeyandMe Suggestions App](https://mikeyandme-suggestions-service-369553076054.us-central1.run.app)
-
 <div align="center">
+<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/randallgann/suggestions-app-nextjs?include_prereleases">
 
-<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/randallgann/react-suggestions-template?include_prereleases">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/randallgann/suggestions-app-nextjs?style=flat">
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/randallgann/react-suggestions-template?style=flat">
+<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/randallgann/suggestions-app-nextjs?style=flat&color=success">
 
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/randallgann/react-suggestions-template?style=flat&color=success">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/randallgann/suggestions-app-nextjs?style=flat&color=yellow">
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/randallgann/react-suggestions-template?style=flat&color=yellow">
-
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randallgann/react-suggestions-template/react?style=flat">
+<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/randallgann/suggestions-app-nextjs/react?style=flat">
 
 <img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/randallgann?style=flat&color=blueviolet">
+</div>
 
 Welcome to the **Next.js Suggestions Application**! This project is designed as a platform where users can suggest topics and vote on their favorite ideas for discussion. It was created as a personal learning project to explore the capabilities of Next.js, including server-side rendering, API routes, and dynamic routing.
 
@@ -57,11 +55,14 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    https://github.com/randallgann/suggestions-app-nextjs.git
+   ```
+
 2. **Install dependencies**:
    ```bash
    cd nextjs-suggestions-app
    npm install
    ```
+
 3. **Set up .tfvars**:
     Create a .tfvars file in the terraform/env directories, using the appropriate variables for each environment. The following variables are required:
     ```bash
@@ -74,6 +75,7 @@ To run this project locally, follow these steps:
     AUTH0_CLIENT_ID=""
     AUTH0_CLIENT_SECRET=""
     ```
+
 4. **Run the development server**:
    ```bash
    npm run dev
@@ -107,5 +109,3 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Google Cloud](https://cloud.google.com/)
 - [Terraform](https://www.terraform.io/)
-
-
