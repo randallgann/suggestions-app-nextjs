@@ -56,7 +56,7 @@ export default function SuggestButton() {
 
     return (
     <>
-        <Button className="h-12 rounded-lg font-bold px-5" color="teal" onClick={handleClick}>
+        <Button className="h-12 rounded-lg font-bold px-5" color="lime" onClick={handleClick}>
             <PlusIcon />
             SUGGEST
         </Button>

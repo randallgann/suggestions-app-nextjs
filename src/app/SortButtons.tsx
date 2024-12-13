@@ -11,7 +11,7 @@ export default function SortButtons(){
     <div className="flex">
       <Button
         flexGrow={true}
-        color={`${sortOption === 'new' ? 'teal' : 'light'}`}
+        color={`${sortOption === 'new' ? 'lime' : 'light'}`}
         onClick={() => setSortOption('new')}
         className="mr-2"
       >
@@ -19,7 +19,7 @@ export default function SortButtons(){
       </Button>      
       <Button
         flexGrow={true}
-        color={`${sortOption === 'popular' ? 'teal' : 'light'}`}
+        color={`${sortOption === 'popular' ? 'lime' : 'light'}`}
         onClick={() => setSortOption('popular')}
       >
              Popular     

@@ -31,21 +31,38 @@
   border: none;
 }
 
+/* Add this to your globals.css */
+/* .transparent-nav {
+  background-color: transparent !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+} */
+
 .navbar-bg {
-  /* background-color: #f59e0b; */
-  background-color: #acbba1;
+  background-color: #275160ff;
+  /* background-color: white; */
 }
 
-.page-bg {
+/* .page-bg {
   background-color: #333946;
+  background-color: #acbba1;
+} */
+.page-bg {
+  background-image: url('../../public/images/blahblah.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This makes it stay fixed while scrolling */
+  min-height: 100vh; /* Ensures it covers full viewport height */
 }
+
 
 .categories-bg {
-  background-color: #232f3d;
+  background-color: #90dcd4ff;
 }
 
 .statuses-bg {
-  background-color: #232f3d;
+  background-color: #90dcd4ff;
 }
 
 .upvote-selected-bg {
@@ -53,18 +70,20 @@
 }
 
 .upvote-deselected-bg {
-  background-color: #6b7280;
+  background-color: #161353ff;
 }
 
 .suggestions-entry-bg {
-  background-color: #b7ac7e;
+  background-color: #90DCD4ff;
 }
 
 .suggestions-entry-status-bg {
-  background-color: #ddb042;
+  background-color: #08030cff;
 }
 
 /* div {
   border: 1px solid;
   border-radius: 10px;
 } */
+
+
